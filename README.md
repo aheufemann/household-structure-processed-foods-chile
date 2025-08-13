@@ -1,10 +1,10 @@
 # Household Structure and Ultra-Processed Food Consumption in Chile
 
-LSE MSc Capstone Project analyzing the relationship between household structure and consumption of ultra-processed foods using Chile's 2022 Household Budget Survey (EPF).
+LSE MSc Capstone Project analysing the relationship between household structure and consumption of ultra-processed foods using Chile's 2022 Household Budget Survey (IX EPF).
 
 ## Project Overview
 
-This project uses BETO (Spanish BERT model) to classify 900,000 food descriptions into NOVA categories, then applies statistical models to examine consumption patterns by household type. The research addresses the gap between Chile's changing household composition (21.8% one-person households) and food processing consumption patterns using nationally representative data.
+This project uses BETO (Spanish BERT model) to classify over 900,000 food descriptions into NOVA categories, then applies statistical models to examine consumption patterns by household type. The research addresses the gap between Chile's changing household composition and food processing consumption patterns using nationally representative data.
 
 ## Code Structure
 
@@ -18,7 +18,7 @@ This project uses BETO (Spanish BERT model) to classify 900,000 food description
 ### R Analysis
 - `00_master.R` - Master script
 - `01_household_descriptives.R` - Descriptive analysis
-- `02_household_modeling.R` - Statistical modeling 
+- `02_household_modeling.R` - Statistical modelling 
 - `03_individual_validation.R` - Individual-level validation
 
 ## Methodology
@@ -27,6 +27,6 @@ This project uses BETO (Spanish BERT model) to classify 900,000 food description
 
 **Model**: Fine-tuned BETO (Spanish-language BERT) for automated NOVA classification with manual validation of uncertain cases.
 
-**Analysis**: Construction of household-level indicators (ultra-processed food share, NOVA diversity scores) merged with demographic variables for statistical modeling.
+**Analysis**: Construction of household-level indicators (ultra-processed food share, NOVA diversity scores) merged with demographic variables for statistical modelling.
 
-**Reproducibility**: All model predictions use fixed seeds and deterministic processing to ensure identical results across runs.
+**Reproducibility**: All model predictions utilise fixed seeds and deterministic processing to ensure consistent and identical results across runs.
