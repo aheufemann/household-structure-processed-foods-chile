@@ -18,7 +18,7 @@ This project uses BETO (Spanish BERT model) to classify 900,000 food description
 ### R Analysis
 - `00_master.R` - Master script
 - `01_household_descriptives.R` - Descriptive analysis
-- `02_household_modeling.R` - Statistical modeling (LASSO)
+- `02_household_modeling.R` - Statistical modeling 
 - `03_individual_validation.R` - Individual-level validation
 
 ## Methodology
